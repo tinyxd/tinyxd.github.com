@@ -4,7 +4,7 @@ title: "arch linux 下lxr的安装"
 date: 2012-05-26 23:14
 comments: true
 categories: archlinux
-tag: archlinux, lxr
+tags: archlinux  lxr
 ---
 
 经过自己两天的折腾，参考了好几个资料终于搞定。
