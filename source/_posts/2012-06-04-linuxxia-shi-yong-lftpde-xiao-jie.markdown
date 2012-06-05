@@ -3,7 +3,7 @@ layout: post
 title: "linux下使用lftp的小结(转载)"
 date: 2012-06-04 07:08
 comments: true
-categories: linux
+categories: linux 
 ---
 
 lftp的功能比较强大，相比原来用ftp，方便了很多。
@@ -162,7 +162,7 @@ ftp中的bookmark命令，是将配置写到~/.lftp/bookmarks文件中；我们�
  
 
 下附一个自动同步的脚本：
-{% codeblock %}
+```bash
 #!bin/bash
 echo “script start at  `date ”+%Y-%m-%d %H:%M:%S”
 HOST=”hostname”
@@ -175,4 +175,9 @@ open ftp://$USER:$PASS@$HOST
 mirror $RCD $LCD
 EOF
 echo “script end at “ `date ”+%Y-%m-%d %H:%M:%S”
-{% endcodeblock %}
+```
+
+
+
+
+
