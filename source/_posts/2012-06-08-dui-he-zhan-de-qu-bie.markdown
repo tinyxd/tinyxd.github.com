@@ -5,7 +5,7 @@ date: 2012-06-08 06:59
 comments: true
 categories: C
 ---
-出自: http://www.cnitexam.com
+出自: http://www.cnitexam.com   
 一、预备知识—程序的内存分配
 
 一个由c/C++编译的程序占用的内存分为以下几个部分
