@@ -14,6 +14,6 @@ Master
 Circuits and systems, School of Electronic Engneering   
 Xidian University   
 Shaanxi, China, 710071   
-Email: wguoxd(at)gmail(dot)com   
+Email: admin@tinyxd.me
 
 
