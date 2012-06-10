@@ -3,7 +3,7 @@ layout: post
 title: "读C++ Primer 之句柄类(转自Linux社区 作者：xizero00)"
 date: 2012-06-08 20:28
 comments: true
-categories: C++
+categories: [Software programming]
 ---
 
 转自：http://www.linuxidc.com/Linux/2011-08/40175.htm

@@ -3,6 +3,8 @@ layout: page
 title: "Tiny"
 date: 2012-05-23 07:43
 comments: false
+dq_id: http://tinyxd.me/about/
+dq_url: http://tinyxd.me/about/
 sharing: false
 footer: true
 ---

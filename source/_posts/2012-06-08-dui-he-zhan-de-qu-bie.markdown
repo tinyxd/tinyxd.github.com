@@ -3,7 +3,7 @@ layout: post
 title: "堆和栈的区别(转)"
 date: 2012-06-08 06:59
 comments: true
-categories: C
+categories: [Software programming]
 ---
 出自: http://www.cnitexam.com   
 一、预备知识—程序的内存分配

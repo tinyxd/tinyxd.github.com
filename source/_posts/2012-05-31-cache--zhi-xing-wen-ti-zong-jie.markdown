@@ -3,7 +3,7 @@ layout: post
 title: "cache一致性问题总结"
 date: 2012-05-31 20:59
 comments: true
-categories: Embedded 
+categories: [Embedded systerm]
 
 ---
 
