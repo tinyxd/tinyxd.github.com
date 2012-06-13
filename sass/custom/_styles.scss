@@ -29,8 +29,8 @@ body > header{
 }
 
 body > header h1{
-  font-size: 2.8em;
-  padding-left: 20px;
+  font-size: 2.5em;
+  padding-left: 15px;
   text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
 }
 
@@ -133,7 +133,7 @@ body > footer{
 @media only screen and (min-width: 550px) {
 
   body > header h1{
-      background: url("/diagram.png") no-repeat 0 8px;
+      background: url("/diagram.png") no-repeat 0 0.5px;
       padding-left: 60px;
   }
 
