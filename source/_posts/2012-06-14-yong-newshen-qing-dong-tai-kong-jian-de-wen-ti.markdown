@@ -7,9 +7,9 @@ categories: [Software programming]
 ---
 先分析一下new的分配：
 
-1.T*   p   =   new   T;  ···   delete   p;
+1.T\*   p   =   new   T;  ···   delete   p;
 等价于
-T*   p   =   new   T[1]; ··· delete[]   p;
+T\*   p   =   new   T[1]; ··· delete[]   p;
 
 2.int   (*p)[n]   =   new   int[m][n];这种方式是可行的
 
