@@ -28,12 +28,13 @@ categories:  java
 先在[Arch Linux AUR](https://aur.archlinux.org/)中找到[JRE](https://aur.archlinux.org/packages.php?ID=51908)。  
  <!--more-->
 制作安装包   
-	
+```	
 	$ wget --no-check-certificate -c https://aur.archlinux.org/packages/jr/jre/jre.tar.gz   
 	$ tar -zxvf jre.tar.gz   
 	$ cd  jre   
 	$ makepkg    
    
+```
 处理依赖条件，开始安装    
 
 
@@ -75,31 +76,31 @@ Arch Linux中，Java SDK默认的安装位置是/opt/java
 *   JDK
 JDK的安装过程与JRE类似。   
 
-	$ wget -c --no-check-certificate https://aur.archlinux.org/packages/jd/jdk/jdk.tar.gz
-	$ tar -zxvf jdk.tar.gz
-	$ cd jdk
-	$ makepkg
-	$ sudo pacman -U ./jdk-7.4-1-i686.pkg.tar.xz
-	loading packages...
-	resolving dependencies...
-	looking for inter-conflicts...
+	\$ wget -c --no-check-certificate https://aur.archlinux.org/packages/jd/jdk/jdk.tar.gz   
+	\$ tar -zxvf jdk.tar.gz   
+	\$ cd jdk   
+	\$ makepkg   
+	\$ sudo pacman -U ./jdk-7.4-1-i686.pkg.tar.xz   
+	loading packages...   
+	resolving dependencies...   
+	looking for inter-conflicts...   
 	
-	Targets (1): jdk-7.4-1
+	Targets (1): jdk-7.4-1   
 	
-	Total Installed Size:   86.05 MiB
+	Total Installed Size:   86.05 MiB   
 	
-	Proceed with installation? [Y/n] 
-	(1/1) checking package integrity                   [----------------------] 100%
-	(1/1) loading package files                        [----------------------] 100%
-	(1/1) checking for file conflicts                  [----------------------] 100%
-	(1/1) checking available disk space                [----------------------] 100%
-	(1/1) installing jdk                               [----------------------] 100%
-	
-	The jdk package is licensed software.
-	You MUST read and agree to the license stored in
-	/usr/share/licenses/jdk/LICENSE before using it.
-	Please relogin to include jdk in your PATH.
-
+	Proceed with installation? [Y/n]    
+	(1/1) checking package integrity                   [----------------------] 100%   
+	(1/1) loading package files                        [----------------------] 100%   
+	(1/1) checking for file conflicts                  [----------------------] 100%   
+	(1/1) checking available disk space                [----------------------] 100%   
+	(1/1) installing jdk                               [----------------------] 100%   
+	   
+	The jdk package is licensed software.   
+	You MUST read and agree to the license stored in   
+	/usr/share/licenses/jdk/LICENSE before using it.   
+	Please relogin to include jdk in your PATH.   
+   
 配置
 安装之后打开/etc/environment文件编辑，添加如下内容：
 
