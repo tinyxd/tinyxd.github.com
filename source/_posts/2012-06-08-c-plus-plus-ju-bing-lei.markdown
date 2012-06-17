@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "读C++ Primer 之句柄类(转自Linux社区 作者：xizero00)"
+title: "读C++ Primer 之句柄类"
 date: 2012-06-08 20:28
 comments: true
 categories: [Software programming]
 ---
 
-转自：http://www.linuxidc.com/Linux/2011-08/40175.htm
+转自Linux社区 作者：xizero00：http://www.linuxidc.com/Linux/2011-08/40175.htm
 
 我们知道C++中最令人头疼的当属指针，如果您申请了对象却没有释放它，时间一长就会造成系统崩溃，大量的内存溢出使得您的程序的健壮性出现问题
 
