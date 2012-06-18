@@ -75,7 +75,7 @@ twitter_tweet_button: true
 sina_microblog_user: 西电小小新
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile 105799035326384009131
