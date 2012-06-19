@@ -4,7 +4,8 @@ title: "cache一致性问题总结"
 date: 2012-05-31 20:59
 comments: true
 categories: [Embedded systerm]
-
+keywords: cache
+description: cache一致性问题总结
 ---
 
 ##1.现代并行机中，为了提高处理器的速度，处理器往往带有Cache。  

@@ -4,6 +4,8 @@ title: "嵌入式linux应用程序自启动"
 date: 2012-06-10 19:46
 comments: true
 categories: [Embedded systerm]
+keywords: linux,embedded systerm ,start up
+description: 嵌入式linux应用程序自启动.
 ---
 在很多嵌入式系统中，由于可用资源较少，常常在系统启动后就直接让应用程序自动启动，以减少用户操作和节省资源。如何让自己的应用程序自动启动呢？    在Linux系统中，配置应用程序自动启动的方法有以下三种：   
 <!--more-->

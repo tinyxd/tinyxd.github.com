@@ -4,6 +4,8 @@ title: "debian安装nvidia显卡驱动"
 date: 2012-06-18 20:31
 comments: true
 categories: linux
+keywords: linux ,debian,nvidia,Graphics driver   
+description: debian安装nvidia显卡驱动.Install nvidia graphics driver in debian.  
 ---
 
 在自己的电脑上硬盘安装了Debian.下面介绍一下我是如何安装显卡驱动的.我的显卡是GForce 7100GS的.

@@ -4,6 +4,8 @@ title: "解决pygments.rb (RubyPython) 找不到libpython的问题(archlinux下)
 date: 2012-06-05 08:01
 comments: true
 categories: ruby
+keywords: pygments.rb, ruby, rubypython ,libpython,archlinux
+description:  解决pygments.rb (RubyPython) 找不到libpython的问题(archlinux下)
 ---
 
 本文章转自：[Ruby China 论坛](http://ruby-china.org/topics/289)   

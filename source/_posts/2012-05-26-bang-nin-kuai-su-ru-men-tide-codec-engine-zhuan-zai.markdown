@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "帮您快速入门TI的Codec Engine(转载)"
+title: "帮您快速入门TI的Codec Engine"
 date: 2012-05-26 06:18
 comments: true
 categories:  davinci
+keywords: davinci , codec engine 
+description: 帮您快速入门TI的Codec Engine。
 ---
 转自TI官网：    
 德州仪器半导体技术（上海）有限公司 通用DSP 技术应用工程师 崔晶   

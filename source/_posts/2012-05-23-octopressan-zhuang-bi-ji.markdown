@@ -4,6 +4,8 @@ title: "Octopress安装笔记"
 date: 2012-05-23 07:16
 comments: true
 categories: octopress
+keywords: octopress ,setup 
+description: How to setup octopress.（ Octopress安装笔记）
 ---
 在阅读此教程之前，先安装git和ruby环境。
 

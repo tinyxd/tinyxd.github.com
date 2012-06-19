@@ -4,6 +4,8 @@ title: "Octopress:新手教程"
 date: 2012-05-23 20:55
 comments: true
 categories: octopress
+keywords: octopress,新手教程,tutorial
+description: octopress tutorial.octopress新手教程
 ---
 
 *转载自：*  

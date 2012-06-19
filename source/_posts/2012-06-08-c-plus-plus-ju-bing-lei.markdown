@@ -4,6 +4,8 @@ title: "读C++ Primer 之句柄类"
 date: 2012-06-08 20:28
 comments: true
 categories: [Software programming]
+keywords: c++ primer,句柄
+description: C++ Primer 的句柄类总结
 ---
 
 转自Linux社区 作者：xizero00：http://www.linuxidc.com/Linux/2011-08/40175.htm

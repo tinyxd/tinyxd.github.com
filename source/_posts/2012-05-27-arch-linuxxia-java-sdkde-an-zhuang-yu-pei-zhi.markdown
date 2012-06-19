@@ -4,6 +4,8 @@ title: "arch linux下java SDK的安装与配置"
 date: 2012-05-27 19:58
 comments: true
 categories:  java
+keywords: arch linux, java ,SDK
+description: arch linux下java SDK的安装与配置。
 ---
 
 为了节省以后查资料的时间，故而转到自己的blog做个备份。

@@ -4,6 +4,8 @@ title: "archbang arch linux 安装inode "
 date: 2012-05-25 14:34
 comments: true
 categories: linux 
+keywords: linux, archbang,archlinux,inode
+description: archbang arch linux 安装inode客户端
 ---
 
 第一步：cp iNodeClient.tar.gz 到 /home/\*\*\*\*\* 目录下。进入~目录下    

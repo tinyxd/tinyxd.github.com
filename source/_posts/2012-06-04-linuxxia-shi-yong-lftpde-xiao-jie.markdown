@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "linux下使用lftp的小结(转载)"
+title: "linux下使用lftp的小结"
 date: 2012-06-04 07:08
 comments: true
 categories: linux 
+keywords: linux,lftp
+description: linux下使用lftp的小结
 ---
 
 lftp的功能比较强大，相比原来用ftp，方便了很多。

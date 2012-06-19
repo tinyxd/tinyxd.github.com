@@ -4,6 +4,8 @@ title: "用new申请动态空间的问题"
 date: 2012-06-14 07:27
 comments: true
 categories: [Software programming]
+keywords: software , new ,Dynamic space, 动态空间
+description: 用new申请动态空间的问题.Apply for dynamic space using "new".
 ---
 先分析一下new的分配：
 

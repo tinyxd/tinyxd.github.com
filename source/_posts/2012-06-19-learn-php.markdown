@@ -1,0 +1,52 @@
+---
+layout: post
+title: "php初学"
+date: 2012-06-19 20:28
+comments: true
+categories: php
+keywords: php 
+description: php learning
+---
+1.搭建学习环境 采用简单的打包好的：lamp.   
+[help web sites](https://help.ubuntu.com/community/ApacheMySQLPHP#Run.2C_Stop.2C_Test.2C_And_Restart_Apache)
+
+2.PHP中文手册   
+http://www.phpchina.com/resource/manual/phpnew/   
+<!--more-->
+example：   
+第一个 PHP 脚本：hello.php   
+``` php
+<html>
+ <head>
+  <title>PHP 测试</title>
+ </head>
+ <body>
+ <?php echo '<p>Hello World
+'; ?>
+ </body>
+</html>
+```
+PHP基本语法：   
+
+四种标量类型：   
+
+*    boolean （布尔型）
+*    integer （整型）
+*    float （浮点型, 也称作 double)
+*    string （字符串） 
+
+两种复合类型：
+
+*    array （数组）
+*    object （对象） 
+
+最后是两种特殊类型：
+
+*    resource　（资源）
+*    NULL　（NULL） 
+
+为了确保代码的易读性，本手册还介绍了一些伪类型：
+
+*    mixed
+*    number
+*    callback 
