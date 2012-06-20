@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "给octopress添加关键字和网站描述（SEO）"
+title: "给octopress添加关键字和网站描述"
 date: 2012-06-19 21:10
 comments: true
 categories: octopress
