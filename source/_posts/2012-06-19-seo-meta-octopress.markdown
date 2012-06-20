@@ -8,7 +8,8 @@ keywords: octopress, meta,seo
 description: How to optimize Octopress for SEO
 ---
 
-给octopress添加keywords和description。
+给octopress添加keywords和description。   
+
 1.修改source / _includes / head.html
 ```
 <meta name="author" content="{{ site.author }}">
