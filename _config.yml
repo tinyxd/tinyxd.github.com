@@ -64,16 +64,19 @@ github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
-# Twitter
+# Twitter 
 twitter_user:
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Sina Microblog
 sina_microblog_user: 西电小小新
+
+#bshare
+bshare: true
 
 # Google +1
 google_plus_one: true
