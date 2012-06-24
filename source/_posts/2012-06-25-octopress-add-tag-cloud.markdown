@@ -26,5 +26,5 @@ description: 给octopress添加标签云
 ```
    
 然后把显示tagcloud的页面 class改为cloud(class="cloud")。   
-大功告成，tag cloud页面请点击[这里](http://tinyxd.me/tags/tags.html)。
+大功告成，tag cloud页面请点击[这里](http://tinyxd.me/tags/index.html)。
    
