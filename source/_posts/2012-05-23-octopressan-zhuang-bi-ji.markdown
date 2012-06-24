@@ -4,6 +4,7 @@ title: "Octopress安装笔记"
 date: 2012-05-23 07:16
 comments: true
 categories: octopress
+tags: [octopress , setup , 安装笔记]
 keywords: octopress ,setup 
 description: How to setup octopress.（ Octopress安装笔记）
 ---

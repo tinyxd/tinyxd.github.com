@@ -86,6 +86,13 @@ article p {
   margin-bottom: 1em;
 }
 
+#content article .cloud li{
+  display: inline;
+  list-style: none outside none;
+  padding: 0 4px;
+}
+
+
 
 /* ----- Sidebar ----- */
 
@@ -177,10 +184,6 @@ body > footer{
       -moz-border-radius: 6px;
       border-radius: 6px;
   }
-#content article .cloud li{
-  display: inline;
-  list-style: none outside none;
-  padding: 0 4px;
-}
+
 
 }

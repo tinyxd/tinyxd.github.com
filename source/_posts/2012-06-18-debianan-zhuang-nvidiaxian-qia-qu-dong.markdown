@@ -4,6 +4,7 @@ title: "debian安装nvidia显卡驱动"
 date: 2012-06-18 20:31
 comments: true
 categories: linux
+tags: [linux ,debian,nvidia,Graphics driver  ]
 keywords: linux ,debian,nvidia,Graphics driver   
 description: debian安装nvidia显卡驱动.Install nvidia graphics driver in debian.  
 ---

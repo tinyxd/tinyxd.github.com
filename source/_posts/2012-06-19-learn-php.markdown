@@ -4,6 +4,7 @@ title: "php初学"
 date: 2012-06-19 20:28
 comments: true
 categories: php
+tags: php
 keywords: php 
 description: php learning
 ---

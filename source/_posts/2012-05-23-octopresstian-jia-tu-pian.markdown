@@ -4,6 +4,7 @@ title: "Octopress添加图片"
 date: 2012-05-23 20:49
 comments: true
 categories: octopress
+tags: [octopress ,picture ]
 keywords: octopress ,picture,添加图片
 description: octopress , add picture.给octopress添加图片
 ---

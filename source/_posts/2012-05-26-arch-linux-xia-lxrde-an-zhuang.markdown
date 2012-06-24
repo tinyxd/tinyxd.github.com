@@ -4,6 +4,7 @@ title: "arch linux 下lxr的安装"
 date: 2012-05-26 23:14
 comments: true
 categories: linux
+tags: [linux , archlinux, lxr]
 keywords: linux,archlinux,lxr
 description: arch linux 下lxr的安装
 ---

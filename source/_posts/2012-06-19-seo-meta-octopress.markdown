@@ -4,6 +4,7 @@ title: "给octopress添加关键字和网站描述"
 date: 2012-06-19 21:10
 comments: true
 categories: octopress
+tags: [octopress, meta,seo]
 keywords: octopress, meta,seo
 description: How to optimize Octopress for SEO
 ---

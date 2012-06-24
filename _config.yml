@@ -54,6 +54,9 @@ default_asides: [custom/asides/license.html,asides/recent_posts.html,   custom/a
 # post_asides:
 # page_asides:
 
+tag_dir: tags
+tag_title_prefix: 
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #

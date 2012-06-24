@@ -4,6 +4,7 @@ title: "帮您快速入门TI的Codec Engine"
 date: 2012-05-26 06:18
 comments: true
 categories:  davinci
+tags: [davinci , codec engine ,ti ,嵌入式 , embedded ]
 keywords: davinci , codec engine 
 description: 帮您快速入门TI的Codec Engine。
 ---
