@@ -4,7 +4,7 @@ title: "为已经存在的github Octopress配置本地环境"
 date: 2012-05-23 20:59
 comments: true
 categories: octopress
-tags: [github, octopress, 配置]
+tags: [github, octopress]
 keywords: octopress, github
 description: 为已经存在的github Octopress配置本地环境。
 ---
