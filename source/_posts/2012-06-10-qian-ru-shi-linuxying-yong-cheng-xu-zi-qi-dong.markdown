@@ -3,7 +3,7 @@ layout: post
 title: "嵌入式linux应用程序自启动"
 date: 2012-06-10 19:46
 comments: true
-categories: [Embedded systerm]
+categories: Embedded
 tags: [linux,embedded ]
 keywords: linux,embedded systerm ,start up
 description: 嵌入式linux应用程序自启动.

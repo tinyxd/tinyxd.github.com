@@ -3,7 +3,7 @@ layout: post
 title: "读C++ Primer 之句柄类"
 date: 2012-06-08 20:28
 comments: true
-categories: [Software programming]
+categories: Software
 tags: [c++ , 句柄]
 keywords: c++ primer,句柄
 description: C++ Primer 的句柄类总结

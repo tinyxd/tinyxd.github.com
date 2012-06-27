@@ -3,7 +3,7 @@ layout: post
 title: "函数压栈的一些思考"
 date: 2012-06-13 07:22
 comments: true
-categories: [Software programming ]
+categories: Software
 tags: [stack ,function]
 keywords: stack ,function,函数压栈
 description: 函数压栈。Function push。
