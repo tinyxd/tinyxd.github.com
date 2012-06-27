@@ -3,7 +3,7 @@ layout: post
 title: "排序算法总结（一）"
 date: 2012-06-27 08:00
 comments: true
-categories: [Software]
+categories: software
 tags: [c++,software]
 keywords: c++,software,插入排序
 description: 排序算法总结（一）插入排序
