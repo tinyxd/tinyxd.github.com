@@ -86,29 +86,29 @@ void HeapAdjust(int array[],int i,int nLength)//本函数功能是：根据数�
 		}
 		// 最后把需要调整的元素值放到合适的位置
 		array[nChild]= nTemp;
-		}
 	}
+}
 	// 堆排序算法
-	void HeapSort(int array[],int length)
+void HeapSort(int array[],int length)
+{
+	// 调整序列的前半部分元素，调整完之后第一个元素是序列的最大的元素
+	for (int i = length / 2 - 1; i >= 0; --i)
 	{
-		// 调整序列的前半部分元素，调整完之后第一个元素是序列的最大的元素
-		for (int i = length / 2 - 1; i >= 0; --i)
-		{
-		HeapAdjust(array,i,length);
-		}
-		// 从最后一个元素开始对序列进行调整，不断的缩小调整的范围直到第一个元素
-		for (int i = length - 1; i > 0; --i)
-		{
-		// 把第一个元素和当前的最后一个元素交换，
-		// 保证当前的最后一个位置的元素都是在现在的这个序列之中最大的
-		Swap(&array[0],&array[i]);
-		// 不断缩小调整heap的范围，每一次调整完毕保证第一个元素是当前序列的最大值
-		HeapAdjust(array,0,i);
+	HeapAdjust(array,i,length);
+	}
+	// 从最后一个元素开始对序列进行调整，不断的缩小调整的范围直到第一个元素
+	for (int i = length - 1; i > 0; --i)
+	{
+	// 把第一个元素和当前的最后一个元素交换，
+	// 保证当前的最后一个位置的元素都是在现在的这个序列之中最大的
+	Swap(&array[0],&array[i]);
+	// 不断缩小调整heap的范围，每一次调整完毕保证第一个元素是当前序列的最大值
+	HeapAdjust(array,0,i);
 	}
 }
 ```
 ``` c++ 堆排序算法（c++描述）
-堆排序算法（C++描述）
+//堆排序算法（C++描述）
 #define MAX 100//数据元素的最大个数
 typedef struct
 {
