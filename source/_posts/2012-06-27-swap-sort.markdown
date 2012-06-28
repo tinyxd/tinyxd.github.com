@@ -42,5 +42,6 @@ void sort(int *a,int left,int right)
 	sort(a,i+1,right);
 } 
 ```
-本文是查阅书籍和网络资料整理而来，转载请注明出处。并以超链接的形式注明本文地址：http://tinyxd.me/blog/2012/06/27/swap-sort/   
+本文是查阅书籍和网络资料整理而来，转载请注明出处。并以超链接的形式注明本文地址：   
+`http://tinyxd.me/blog/2012/06/27/swap-sort/`   
 下一节更新选择排序。
