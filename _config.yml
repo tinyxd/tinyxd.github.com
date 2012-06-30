@@ -7,8 +7,8 @@ title: Keen on Art of Tech
 subtitle: Stay Hungry,Stay Foolish,Stay Patient.
 author: Tiny
 simple_search: http://google.com/search
-description: Keen on the software programming and Embedded development.（专注软件编程及嵌入式技术。）
-keywords: ruby , linux , archlinux , debian , software , programming , embedded , gem, web ,ubuntu , java
+description: octopress , tiny , 嵌入式，Embedded , linux , software , archlinux , debian , ubuntu
+keywords: octopress , tiny , 嵌入式 , Embedded， linux , software , archlinux , debian , ubuntu 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
