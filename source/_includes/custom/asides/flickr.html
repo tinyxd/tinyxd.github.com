@@ -1,16 +1,16 @@
 {% if site.flickr_user %}
 <section class="flickr">
-<h1>My Flickr</h1>
+<h1>Flickr</h1>
 <!-- Start of Flickr Badge -->
 <style type="text/css">
 /*
 Images are wrapped in divs classed "flickr_badge_image" with ids "flickr_badge_imageX" where "X" is an integer specifying ordinal position. Below are some styles to get you started!
 */
 #flickr_badge_wrapper {padding:10px 0 10px 0;}
-.flickr_badge_image {margin: 0 9px 8px 0px;display: inline-block;}
+.flickr_badge_image {margin: 0 5px 4px 0px;display: inline-block;}
 </style>
 <div id="flickr_badge_uber_wrapper"><div id="flickr_badge_wrapper">
-<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count={{ site.flickr_count }}&display=latest&size=s&layout=x&source=user&user={{ site.flickr_user }}"></script>
+<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count={{ site.flickr_count }}&display=random&size=s&layout=x&source=user&user={{ site.flickr_user }}"></script>
 </div></div>
 <!-- End of Flickr Badge -->
 </section>
