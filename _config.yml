@@ -45,14 +45,14 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.   
-# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'  ,'custom/asides/douban.html','custom/asides/sina_microblog.html','custom/asides/category_list.html,' 'custom/asides/tags.html,'
+# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'  , ' custom/asides/flickr.html ' 'custom/asides/douban.html','custom/asides/sina_microblog.html','custom/asides/category_list.html,' 'custom/asides/tags.html,'
 default_asides: [custom/asides/license.html,asides/recent_posts.html,   custom/asides/category_cloud.html,asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html,asides/googleplus.html , custom/asides/links.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-blog_index_asides: [custom/asides/license.html,asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html ,  custom/asides/douban.html ,  custom/asides/flickr.html  ]
-post_asides: [ custom/asides/sina_microblog.html , asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html , custom/asides/douban.html , custom/asides/flickr.html ]
-page_asides: [ custom/asides/about.html , asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html ,  custom/asides/douban.html ,  custom/asides/flickr.html]
+blog_index_asides: [custom/asides/license.html,asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html ,  custom/asides/douban.html  ]
+post_asides: [ custom/asides/sina_microblog.html , asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html , custom/asides/douban.html  ]
+page_asides: [ custom/asides/about.html , asides/recent_posts.html,   custom/asides/category_cloud.html , custom/asides/links.html ,  custom/asides/douban.html ]
 
 tag_dir: tags
 tag_title_prefix: 
