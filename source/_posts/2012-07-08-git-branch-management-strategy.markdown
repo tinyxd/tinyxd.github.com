@@ -11,23 +11,23 @@ description: Git分支管理策略
 如果你严肃对待编程，就必定会使用"[版本管理系统](http://www.ruanyifeng.com/blog/2008/12/a_visual_guide_to_version_control.html)"（Version Control System）。
 
 眼下最流行的"版本管理系统"，非[Git](http://git-scm.com/)莫属。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090020/" title="Flickr 上 Tiny_2012 的 1"><img src="http://farm8.staticflickr.com/7259/7528090020_6b05b9a556.jpg" width="240" height="110" alt="1"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21131&authkey=AAPFgWVBfiUqHeo" width="320" height="134" frameborder="0" scrolling="no"></iframe>   
 相比同类软件，Git有很多优点。其中很显著的一点，就是版本的分支（branch）和合并（merge）十分方便。有些传统的版本管理软件，分支操作实际上会生成一份现有代码的物理拷贝，而Git只生成一个指向当前版本（又称"快照"）的指针，因此非常快捷易用。
 <!--more-->
 但是，太方便了也会产生副作用。如果你不加注意，很可能会留下一个枝节蔓生、四处开放的版本库，到处都是分支，完全看不出主干发展的脉络。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090186/" title="Flickr 上 Tiny_2012 的 2"><img src="http://farm8.staticflickr.com/7274/7528090186_6a8899435c.jpg" width="500" height="264" alt="2"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21132&authkey=AOWpB7QlaRtAdFA" width="320" height="169" frameborder="0" scrolling="no"></iframe>   
 [Vincent Driessen](http://nvie.com/)提出了一个分支管理的[策略](http://nvie.com/posts/a-successful-git-branching-model/)，我觉得非常值得借鉴。它可以使得版本库的演进保持简洁，主干清晰，各个分支各司其职、井井有条。理论上，这些策略对所有的版本管理系统都适用，Git只是用来举例而已。如果你不熟悉Git，跳过举例部分就可以了。
 
 一、主分支Master
 
 首先，代码库应该有一个、且仅有一个主分支。所有提供给用户使用的正式版本，都在这个主分支上发布。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090320/" title="Flickr 上 Tiny_2012 的 3"><img src="http://farm9.staticflickr.com/8143/7528090320_caf16f8fa0.jpg" width="250" height="500" alt="3"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21130&authkey=AGTrDkY9-vGp3os" width="160" height="320" frameborder="0" scrolling="no"></iframe>   
 Git主分支的名字，默认叫做Master。它是自动建立的，版本库初始化以后，默认就是在主分支在进行开发。
 
 二、开发分支Develop
 
 主分支只用来分布重大版本，日常开发应该在另一条分支上完成。我们把开发用的分支，叫做Develop。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090426/" title="Flickr 上 Tiny_2012 的 4"><img src="http://farm8.staticflickr.com/7258/7528090426_3cdd620081.jpg" width="452" height="500" alt="4"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21137&authkey=AKPfVNUBKokrRFU" width="289" height="320" frameborder="0" scrolling="no"></iframe>   
 这个分支可以用来生成代码的最新隔夜版本（nightly）。如果想正式对外发布，就在Master分支上，对Develop分支进行"合并"（merge）。
 
 Git创建Develop分支的命令：
@@ -43,9 +43,9 @@ Git创建Develop分支的命令：
     　　git merge --no-ff develop
 
 这里稍微解释一下，上一条命令的--no-ff参数是什么意思。默认情况下，Git执行"快进式合并"（fast-farward merge），会直接将Master分支指向Develop分支。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090560/" title="Flickr 上 Tiny_2012 的 5"><img src="http://farm8.staticflickr.com/7119/7528090560_637ed2444b.jpg" width="413" height="500" alt="5"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21134&authkey=AN9912ePTGm_jHA" width="264" height="320" frameborder="0" scrolling="no"></iframe>   
 使用--no-ff参数后，会执行正常合并，在Master分支上生成一个新节点。为了保证版本演进的清晰，我们希望采用这种做法。关于合并的更多解释，请参考Benjamin Sandofsky的[《Understanding the Git Workflow》](http://sandofsky.com/blog/git-workflow.html)。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090850/" title="Flickr 上 Tiny_2012 的 6"><img src="http://farm8.staticflickr.com/7278/7528090850_25a9e54faa.jpg" width="172" height="500" alt="6"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21133&authkey=AGXTd8Ijt7ax2Nw" width="110" height="319" frameborder="0" scrolling="no"></iframe>   
 三、临时性分支
 
 前面讲到版本库的两条主要分支：Master和Develop。前者用于正式发布，后者用于日常开发。其实，常设分支只需要这两条就够了，不需要其他了。
@@ -65,9 +65,9 @@ Git创建Develop分支的命令：
 接下来，一个个来看这三种"临时性分支"。
 
 第一种是功能分支，它是为了开发某种特定功能，从Develop分支上面分出来的。开发完成后，要再并入Develop。   
-<a href="http://www.flickr.com/photos/tiny2012/7528090742/" title="Flickr 上 Tiny_2012 的 7"><img src="http://farm8.staticflickr.com/7117/7528090742_00abc19368.jpg" width="275" height="500" alt="7"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21135&authkey=APEKOZ5K-E-yHZE" width="176" height="320" frameborder="0" scrolling="no"></iframe>   
 功能分支的名字，可以采用feature-*的形式命名。   
-<a href="http://www.flickr.com/photos/tiny2012/7528089914/" title="Flickr 上 Tiny_2012 的 8"><img src="http://farm9.staticflickr.com/8011/7528089914_9e08e9d5f2.jpg" width="500" height="427" alt="8"></a>   
+<iframe src="https://skydrive.live.com/embed?cid=1F260DE1061FCF3E&resid=1F260DE1061FCF3E%21136&authkey=AHLTEmtvBwaY3dM" width="320" height="273" frameborder="0" scrolling="no"></iframe>   
 创建一个功能分支：
 
     　　git checkout -b feature-x develop
@@ -139,4 +139,4 @@ Git创建Develop分支的命令：
 
     　　git branch -d fixbug-0.1
 <br />
-原文网址：http://www.ruanyifeng.com/blog/2012/07/git.html
+原文网址：<http://www.ruanyifeng.com/blog/2012/07/git.html>
