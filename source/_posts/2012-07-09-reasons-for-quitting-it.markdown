@@ -13,7 +13,7 @@ description: IT生活：10个不干IT的理由搞IT有很多好处——但是�
 
 有谁起码有那么一两次快想不干了的？请举手。来吧，不要不好意思。IT的压力，没有最大，只有更大，路人皆知。更为不幸的是，大学并没有教你度过并坚守这些岁月的应对机制。我们来看看有哪些原因会导致你决意离开所挚爱的IT行业。
 
-注：本文有[PDF版](http://downloads.techrepublic.com.com/abstract.aspx?docid=2568617)可供下载。
+注：本文有[PDF版](http://www.techrepublic.com/downloads/10-reasons-for-quitting-it/2568617)可供下载。
   
 1: 压力
 
