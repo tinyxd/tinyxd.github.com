@@ -8,12 +8,11 @@ dq_url: http://tinyxd.me/about/
 sharing: false
 footer: true
 ---
-<p>
+
 <img src="/images/my_pic.jpg" align ="right" alt="My photo" width="170" height="120">
 Master   
 Circuits and systems, School of Electronic Engneering   
 Xidian University   
-Shaanxi, China, 710071   
-Email: admin@tinyxd.me 
-</p>
+Shaanxi, China, 710071     
+Email: admin@tinyxd.me    
 
