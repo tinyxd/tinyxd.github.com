@@ -3,7 +3,7 @@ layout: page
 title: "友情链接"
 date: 2012-07-13 18:31
 comments: false
-sharing: true
+sharing: false
 footer: true
 ---
 小C驻留地：<a href="http://www.lan-gui.com" target="_blank" > http://www.lan-gui.com </a>    
