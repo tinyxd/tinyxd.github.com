@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Archlinux下的时间时区设置"
+title: "archlinux下的时间时区设置"
 date: 2012-07-14 23:56
 comments: true
 categories: linux
