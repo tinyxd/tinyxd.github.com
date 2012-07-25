@@ -6,7 +6,7 @@ comments: true
 categories: linux
 tags: [archlinux,linux]
 keywords: archlinux,update,glibc
-description: 由于arlinux目录更新，glibc更新，升级archlinux出现错误。本文讲述了此次升级出现问题的解决方法。
+description: 由于archlinux目录更新，glibc更新，升级archlinux出现错误。本文讲述了此次升级出现问题的解决方法。
 ---
 好久没更新archlinux，今天更新，发现由于archlinux系统根目录结构的改变，导致好多人遇到问题，不错，笔者必然也遇到了。由于有前人的探索，再加上查阅archlinux官网论坛，得以顺利解决问题。
 运行`pacman -Syu`时会出现   
