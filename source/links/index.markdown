@@ -6,13 +6,15 @@ comments: false
 sharing: false
 footer: true
 ---
-小C驻留地：<a href="http://www.lan-gui.com" target="_blank" > http://www.lan-gui.com </a>    
+小C驻留地：<a href="http://www.lan-gui.com/" target="_blank" > http://www.lan-gui.com </a>    
 
 独翼天使|互联网产品经理：<a href="http://likun.me/" target="_blank"> http://likun.me/</a>     
 
 传媒路：<a href="http://www.medialu.com/" target="_blank"> http://www.medialu.com/</a>    
 
-易冷天涯：<a href="http://www.dkjiaoyang.com" target="_blank"> http://www.dkjiaoyang.com</a>    
+易冷天涯：<a href="http://www.dkjiaoyang.com/" target="_blank"> http://www.dkjiaoyang.com/</a>   
+
+正北偏南J927：<a href="http://www.j927.net/" target="_blank"> http://www.j927.net/</a> 
 
 月光博客：<a href="http://www.williamlong.info/" target="_blank"> http://www.williamlong.info/ </a>   
 
