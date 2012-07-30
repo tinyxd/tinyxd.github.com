@@ -24,5 +24,10 @@ footer: true
 
 挨踢男的那点事：<a href="http://www.aitinan.com/" target="_blank"> http://www.aitinan.com/ </a>   
 
-申请**友情链接**，请发送Email到<admin@tinyxd.me>，或到本站[留言板](http://tinyxd.me/message-board/)留言。      
+我爱程序员：<a href="http://www.52coder.net/" target="_blank"> http://www.52coder.net/</a>    
 
+DoMyself：<a href="http://www.domyself.me/" target="_blank"> http://www.domyself.me/</a>    
+
+互联网战：<a href="http://www.diannao.it/" target="_blank"> http://www.diannao.it/</a>
+
+申请**友情链接**，请发送Email到<admin@tinyxd.me>，或到本站[留言板](http://tinyxd.me/message-board/)留言。      
