@@ -22,7 +22,9 @@ footer: true
 
 译言：<a href="http://www.yeeyan.org/" target="_blank"> http://www.yeeyan.org/ </a>   
 
-挨踢男的那点事：<a href="http://www.aitinan.com/" target="_blank"> http://www.aitinan.com/ </a>   
+挨踢男的那点事：<a href="http://www.aitinan.com/" target="_blank"> http://www.aitinan.com/ </a>  
+
+挨踢男|肖潇：<a href="http://youtune-xiao.com/" target="_blank"> http://youtune-xiao.com/</a>  
 
 我爱程序员：<a href="http://www.52coder.net/" target="_blank"> http://www.52coder.net/</a>    
 
