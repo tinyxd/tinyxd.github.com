@@ -12,7 +12,7 @@ footer: true
 如果觉得本站的文章对您有一点点启发，那么可以订阅本站。   
 ***订阅更新***   
 ***使用RSS跟踪本站更新***   
-1.	使用[FeedSky](http://feed.feedsky.com/KeenonArtofTech)订阅： <http://feed.feedsky.com/KeenonArtofTech>   
+1.	使用[FeedSky](http://feed.feedsky.com/embed)订阅： <http://feed.feedsky.com/embed>   
 2.	使用[FeedBurner](http://feeds.feedburner.com/KeenOnArtOfTech)订阅： <http://feeds.feedburner.com/KeenOnArtOfTech>   
 3.	订阅到邮箱：[QQ邮箱列表](http://list.qq.com/cgi-bin/qf_invite?id=4f662a68045d0977ec73fb3a220b90dddfad59ade4a0eb6b)  
 ***推荐的RSS阅读器***   
