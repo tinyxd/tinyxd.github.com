@@ -6,6 +6,10 @@ comments: false
 sharing: false
 footer: true
 ---
+西电小新：<a href="http://tinyxd.me/" target="_blank" > http://tinyxd.me </a>    
+
+冰之竹语：<a href="http://info.tinyxd.me/" target="_blank" > http://info.tinyxd.me </a>    
+
 小C驻留地：<a href="http://www.lan-gui.com/" target="_blank" > http://www.lan-gui.com </a>    
 
 独翼天使|互联网产品经理：<a href="http://likun.me/" target="_blank"> http://likun.me/</a>     
