@@ -74,7 +74,7 @@ Nginx每个进程耗费10M~12M内存，只开启一个Nginx进程，节省内存
 经过优化后的vps，有人做过测试一小时，1000+的pv量都是没有问题的。相同的价格可见买vps还是比较合算的。   
 PS.我的vps现在放了两个站：[本站](http://tinyxd.me/)、[冰之竹语](http://info.tinyxd.me/)。后期准备再弄个技术bbs之类的玩玩。   
 对了我还放了个文件管理器[Encode Explorer](http://encode-explorer.siineiolekala.net/)，专门用来存放上传的图片和文件的。地址在[这里](http://upload.tinyxd.me/)。其实这一招是从[这里](http://log4d.com/2012/05/image-host/)学来的。。。
-我将在我的下一篇[文章](http://tinyxd.me/2012/08/25/imag-file-explorer/)中详细说明。   
+我将在我的下一篇[文章](http://tinyxd.me/blog/2012/08/26/imag-file-explorer/)中详细说明。   
 <br />
-本文地址：<http://tinyxd.me/2012/08/25/vps-optimization/>
+本文地址：<http://tinyxd.me/blog/2012/08/25/vps-optimization/>
 
