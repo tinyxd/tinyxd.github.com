@@ -12,17 +12,21 @@ description: 用Dropbox自动备份同步VPS网站及数据库
 	cd ~
 linux下用ssh登录：   
 	ssh (ip) -l (用户名) -p (端口号)
+	或者
+	ssh username@ip
+	或者	
+	ssh username@domain
 下载dropbox程序：   
 32位版本：   
     wget -O dropbox.tar.gz http://www.dropbox.com/download/?plat=lnx.x86
 64位版本：
     wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64
+<!--more-->
 解压缩：
         tar -zxof dropbox.tar.gz
 然后第一次运行dropbox：
         ~/.dropbox-dist/dropboxd &
-运行后会出现一串URL地址，把这个复制到流量器上，跟你的dropbox账户进行绑定。   
-<!--more-->
+运行后会出现一串URL地址，把这个复制到流量器上，跟你的dropbox账户进行绑定。 
 绑定好之后就可以开始同步了。   
 首先进入dropbox，   
        cd ~/Dropbox
