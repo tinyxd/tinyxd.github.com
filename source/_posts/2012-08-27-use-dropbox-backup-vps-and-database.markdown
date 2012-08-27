@@ -33,6 +33,7 @@ linux下用ssh登录：
 备份整个wwwroot目录，建立一个软连接：   
         ln -s /home/wwwroot
 由于dropbox耗费的内存确实够大，建议不要开太长时间   
+<img src="http://upload.tinyxd.me/2012/08/dropboxload.jpg"  alt="dropboxload" width="778" height="200">   
 如果上面操作没有错误的话，在dropbox就可以看到同步的文件了。   
 附别人写的一个脚本：
 ``` bash dropboxbak.sh 
