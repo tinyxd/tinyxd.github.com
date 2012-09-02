@@ -1,0 +1,55 @@
+---
+layout: post
+title: "个人网站上安装SSL证书"
+date: 2012-09-02 22:45
+comments: true
+categories: vps
+tags: [vps,nginx,ssl]
+keywords: 安装SSL,vps nginx
+description: 为了保证网络通信安全，在个人博客网站上安装SSL。
+---
+SSL(Secure Sockets Layer 安全套接层),及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS与SSL在传输层对网络连接进行加密。     
+HTTPS（Secure Hypertext Transfer Protocol）安全超文本传输协议，HTTPS应用了Netscape的完全套接字层（SSL）作为HTTP应用层的子层。（HTTPS使用端口443，而不是象HTTP那样使用端口80来和TCP/IP进行通信。）     
+建个网站不容易，各种都要收费，那么有免费的当然就更好了！免费的SSL证书：[StartSSL](https://www.startssl.com/)来了！   
+1.进入StartSSL[官网](https://www.startssl.com/)，点击左上角`Sign-up For Free`（这个很容易找，就不截图了`^_^`）。按要求填写注册信息，`First, Last Name`这一栏填写自己的中文名字的拼音，地址精确到房间号或者街道号（要不然客服发来邮件会索要地址的）。   
+2.注册成功后，StartSSL会发送一个链接给你，还有验证码。因为StartSSL使用证书验证的，所以，要把验证证书好好保管好，丢了就没法登陆了。   
+3.进入`Control Panel`之后，点击`Validations Wizard`，域名验证`Domain Name Validation`,填入你需要添加SSL的域名，还有你的个人邮箱（会给你发封邮件，里面有验证码，注意接收）。   
+4.验证完域名后，点击`Certificates Wizard`--`Web Server SSL/TLS Certificate`。    
+<!--more-->
+**生成私钥（Generate Private Key）**   
+如果你已经在VPS上生成了私钥，这一步可以跳过，没有的话，可以在这里生成，填入私钥的密码，将文本框中的内容复制，保存为`ssl.key`。   
+**生成证书**    
+选择你需要绑定的二级域名，比如`www.tinyxd.me`,`Tool Box`--`Retrieve Certificate`,同样将文本框中的内容复制另存为`ssl.crt`。    
+**登录VPS，生成服务器密钥/证书**    
+生成`server.key`   
+	openssl rsa -in ssl.key -out server.key
+生成`server.crt`    
+``` bash
+cp ssl.crt server.crt
+wget http://cert.startssl.com/certs/ca.pem
+wget http://cert.startssl.com/certs/sub.class1.server.ca.pem
+cat ca.pem sub.class1.server.ca.pem >> ca-certs.crt
+cat ca-certs.crt >> server.crt
+```
+**修改nginx配置文件**    
+将`server.key`和`server.crt`放到`/usr/local/nginx/certs/`目录下，修改`/usr/local/nginx/conf/vhost/`对应域名虚拟机的配置文件，添加如下内容：   
+```
+server {
+listen 80;
+server_name www.域名.com;
+rewrite ^(.*) https://$server_name$1 permanent;
+}
+server {
+listen 443;
+server_name www.域名.com;
+root /home/www;
+ssl on;
+ssl_certificate /usr/local/nginx/certs/server.crt;
+ssl_certificate_key /usr/local/nginx/certs/server.key;
+}
+```
+上面脚本的`rewrite ^(.*) https://$server_name$1 permanent;`如果不填加的话，你的网站将可以进行http和https的两种访问。    
+最后重启Nginx，`/usr/local/nginx restart` 。访问你的网站，看是不是支持https访问了！   
+本文参考：<http://ichon.me/2012/5/29/nginx-ssl.html>和<http://baike.baidu.com/view/16147.htm>   
+<br />
+本文地址：<http://tinyxd.me/blog/2012/09/02/nginx-ssl/>    
