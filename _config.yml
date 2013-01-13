@@ -78,6 +78,9 @@ twitter_tweet_button: false
 # Sina Microblog
 sina_microblog_user: 西电小小新
 
+#ujian
+ujian: true
+
 #bshare
 bshare: true
 
