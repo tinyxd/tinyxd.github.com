@@ -8,7 +8,7 @@ subtitle: Stay Hungry,Stay Foolish,Stay Patient.
 author: Tiny
 simple_search: http://google.com/search
 description: 专注嵌入式技术与软件编程,涉及linux,archlinux,debian,ubuntu,embedded等.
-keywords: octopress,嵌入式,Embedded,linux,software,archlinux,debian,ubuntu
+keywords: 西电小新,Tiny,octopress,嵌入式,Embedded,linux,software,archlinux,debian,ubuntu
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -36,6 +36,7 @@ code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
+original_url_pre: 本站文章如果没有特别说明，均为原创，转载请以链接方式注明本文地址：
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
