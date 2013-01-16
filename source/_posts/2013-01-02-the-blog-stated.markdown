@@ -4,6 +4,8 @@ title: "新的一年"
 date: 2013-01-02 12:22
 comments: true
 categories: essay
+tags: job
+keywords: 新的一年 | github | 工作
 ---
 好久没有写博客了，上篇博客是找工作之前，现在工作已经尘埃落定了。工作找完后，就开始忙着写论文，考驾照。   
 回首2012，感觉运气不佳，希望2013年能够运气好好。    

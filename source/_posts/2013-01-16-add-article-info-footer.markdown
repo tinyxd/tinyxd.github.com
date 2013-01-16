@@ -5,7 +5,7 @@ date: 2013-01-16 13:23
 comments: true
 categories: octopress
 tags: octopress
-keywords: octopress|本文地址
+keywords: octopress | 本文地址
 description: 文章末尾自动添加本文地址
 ---
 为每篇post添加本文地址和keywords信息。   
