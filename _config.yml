@@ -37,6 +37,7 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 original_url_pre: 本站文章如果没有特别说明，均为原创，转载请以链接方式注明本文地址：
+original_keyword_pre: 关键字：
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/

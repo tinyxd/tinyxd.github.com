@@ -13,13 +13,12 @@ module AppendFooterFilter
      author = post.site.config['author']
      url = post.site.config['url']
      pre = post.site.config['original_url_pre']
-     post.content + %Q[<p class='post-footer'>
-            #{pre or "original link:"}
-            <a href='#{post.full_url}'>#{post.full_url}</a><br/>
-            &nbsp;Written by <a href='#{url}'>#{author}</a>
-            &nbsp;Posted at <a href='#{url}'>#{url}</a><br/>
-            &nbsp;Keywords : {{ page.keywords }}
-            </p>]
+    keyword_pre = post.site.config['original_keyword_pre']
+     post.content + %Q[<p class='post-footer'>#{pre or "original link:"}
+<a href='#{post.full_url}'>#{post.full_url}</a><br/>
+&nbsp;Written by <a href='#{url}'>#{author}</a>
+&nbsp;Posted at <a href='#{url}'>#{url}</a><br/>
+&nbsp;#{keyword_pre or "Keywords :"} {{ page.keywords }}</p>]
   end 
 end
 

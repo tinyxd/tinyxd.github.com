@@ -75,11 +75,11 @@ linux下用ssh登录：
                 30 3 * * * sh /root/.dropbox/dropboxbak.sh stop
 具体参数参照文档。   
 删除dropbox的方法：   
-```
+``` bash
 # sh /root/.dropbox/dropboxbak.sh stop
 # su - root
 # cd
 # rm -rf .dropbox .dropbox-dist  Dropbox dropbox.tar.gz dbmakefakelib.py dbreadconfig.py
-```
-<br />
-本文地址：<http://tinyxd.me/blog/2012/08/27/use-dropbox-backup-vps-and-database/>   
+```      
+更多内容请参考相关网站。
+</br>
