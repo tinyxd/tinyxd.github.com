@@ -6,7 +6,7 @@ comments: false
 sharing: false
 footer: true
 ---
-西电小新：<a href="http://tinyxd.me/" target="_blank" > http://tinyxd.me </a>    
+西电小新：<a href="http://blog.tinyxd.me/" target="_blank" > http://blog.tinyxd.me </a>    
 
 冰之竹语：<a href="http://info.tinyxd.me/" target="_blank" > http://info.tinyxd.me </a>    
 
