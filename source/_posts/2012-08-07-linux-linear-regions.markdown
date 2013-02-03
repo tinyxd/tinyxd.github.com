@@ -268,4 +268,3 @@ __pgprot(_PAGE_PRESENT | _PAGE_USER | _PAGE_ACCESSED)
 ```
 <br />
 本文章参考自《深入理解linux内核》 。   
-本文地址：<http://tinyxd.me/blog/2012/08/07/linux-linear-regions/>

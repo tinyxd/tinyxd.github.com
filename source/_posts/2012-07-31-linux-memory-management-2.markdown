@@ -161,4 +161,3 @@ unsigned int kmem_cache_size( struct kmem_cache *cachep ); const char *kmem_cach
 
 <br />
 本文章参考自《深入理解linux内核》及 [动态内存管理](https://www.ibm.com/developerworks/cn/linux/l-linux-slab-allocator/)。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/31/linux-memory-management-2/>

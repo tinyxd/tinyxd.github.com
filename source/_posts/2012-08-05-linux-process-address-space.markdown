@@ -79,4 +79,3 @@ mm_users字段存放共享mm_struct数据结构的轻进程的个数。mm_count�
 
 <br />
 本文章参考自《深入理解linux内核》 。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/08/05/linux-process-address-space/>

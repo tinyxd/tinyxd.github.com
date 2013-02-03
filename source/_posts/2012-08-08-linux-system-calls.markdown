@@ -135,4 +135,3 @@ Linux中实现系统调用利用了0x86体系结构中的软件中断[4]。软�
 
 <br >
 本文参考自《深入理解linux内核》和[linux系统调用](http://chriszeng87.iteye.com/blog/1204500) 。   
-本文地址：<http://tinyxd.me/blog/2012/08/08/linux-system-calls/>   

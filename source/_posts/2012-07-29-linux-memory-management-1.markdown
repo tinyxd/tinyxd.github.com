@@ -61,6 +61,6 @@ Linux 采用伙伴系统（buddy system）算法来解决外碎片问题。把�
 
  
 本文章参考自《深入理解linux内核》及 [Linux内存管理(上)](http://www.cnblogs.com/hoys/archive/2011/09/08/2171606.html) 。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/29/linux-memory-management-1/>
+
  
  

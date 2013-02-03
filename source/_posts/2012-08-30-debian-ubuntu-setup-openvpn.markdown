@@ -78,5 +78,5 @@ cd /etc/openvpn/easy-rsa/2.0
 将新生成的user1.crt,user1.key,user1.csr三个文件和*.ovpn和ca.crt、ca.key三个文件一起下载到本地，编辑下载下来的`*.ovpn`文件将其中的`cert client1.crt`和`key client1.key`修改为：`cert user1.crt`和`key user1.key`。    
 把以上文件，打包发送给你的朋友。并将其解压到config目录下。     
 <br />
-本文地址：<http://tinyxd.me/blog/2012/08/30/debian-ubuntu-setup-openvpn/>    
+
 

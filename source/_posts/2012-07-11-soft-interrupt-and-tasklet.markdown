@@ -186,6 +186,6 @@ static void tasklet_action(struct softirq_action *a)
 
 
 <br />
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/11/soft-interrupt-and-tasklet/>
+
 
  

@@ -32,6 +32,6 @@ add_hook sysinit_end spoof_mac
 ```
 具体可参见Archlinux wiki。   
 
-inode上网可参考我以前的一篇文章:<http://tinyxd.me/blog/2012/05/25/archbang-arch-linux-an-zhuang-inode/>   
-本文地址：<http://tinyxd.me/blog/2012/08/23/archlinux-change-mac/>   
+inode上网可参考我以前的一篇文章:<http://blog.tinyxd.me/blog/2012/05/25/archbang-arch-linux-an-zhuang-inode/>   
+ 
 

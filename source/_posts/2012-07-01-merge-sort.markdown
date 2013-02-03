@@ -32,7 +32,6 @@ void MergeSort(int array[], int first, int last)
 		Merge(array,first,mid,last);
 	}
 } 
-```
-本文是查阅书籍和网络资料整理而来，转载请注明出处。并以超链接的形式注明本文地址：   
-`http://tinyxd.me/blog/2012/07/01/merge-sort/`   
+```   
+   
 

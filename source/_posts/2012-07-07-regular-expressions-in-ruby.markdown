@@ -67,4 +67,3 @@ print "server address: ", $1, "\n"
 
 正则表达式的圣书：`Mastering Regular Expressions, Third Edition (Jeffrey E.F.Friedl 著/O'REILLY 出版) `   
 <br />
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：`http://tinyxd.me/blog/2012/07/07/regular-expressions-in-ruby/`

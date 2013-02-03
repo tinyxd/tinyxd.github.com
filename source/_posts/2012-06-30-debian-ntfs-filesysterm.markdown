@@ -53,5 +53,3 @@ Disk identifier: 0x559ed1e5
 下面是我的系统加载NTFS文件系统的相关命令：   
 	mount -t ntfs-3g /dev/sda6 /mnt/D
 	mount -t ntfs-3g /dev/sda7 /mnt/E   
-以上文章是对网上搜集的资料的整理。如需转载请注明出处，本文地址：   
-`http://tinyxd.me/blog/2012/06/30/debian-ntfs-filesysterm/`  

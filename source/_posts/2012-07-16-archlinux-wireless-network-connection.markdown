@@ -57,5 +57,4 @@ b.修改此文件，适合你的无线网络环境。当然可以阅读系统自
 netcfg, newlan (AUR), wicd, NetworkManager, 等。
 我使用的是NetworkManager，地址在[这里](https://wiki.archlinux.org/index.php/NetworkManager)。  
 <br />   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/16/archlinux-wireless-network-connection/>
- 
+

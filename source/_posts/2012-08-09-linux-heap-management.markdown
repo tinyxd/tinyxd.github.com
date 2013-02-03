@@ -142,4 +142,3 @@ do_brk()函数实际上是仅处理匿名线性区的do_mmap()的简化版。可
 
  
 本文参考《深入理解linux内核》。   
-本文地址：<http://tinyxd.me/blog/2012/08/09/linux-heap-management/>   

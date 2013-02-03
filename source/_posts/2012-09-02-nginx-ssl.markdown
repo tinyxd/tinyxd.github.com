@@ -52,4 +52,4 @@ ssl_certificate_key /usr/local/nginx/certs/server.key;
 最后重启Nginx，`/usr/local/nginx restart` 。访问你的网站，看是不是支持https访问了！   
 本文参考：<http://ichon.me/2012/5/29/nginx-ssl.html>和<http://baike.baidu.com/view/16147.htm>   
 <br />
-本文地址：<http://tinyxd.me/blog/2012/09/02/nginx-ssl/>    
+ 

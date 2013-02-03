@@ -114,4 +114,3 @@ vfree()函数释放vmalloc()或vmalloc_32()创建的非连续内存区，而vunm
 
 <br />
 本文章参考自《linux内核设计与实现》、[slab分配器](http://blog.csdn.net/jiangyuping_fyl/article/details/7268287) 及 [非连续内存区](http://blog.csdn.net/yunsongice/article/details/5536197) 。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/31/linux-memory-management-3/>

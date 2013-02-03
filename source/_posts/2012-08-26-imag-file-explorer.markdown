@@ -20,4 +20,3 @@ description: 做网站，尤其是做多个网站的，文件的统一管理，�
 这就是最终完成的，用二级域名（只要将该域名dns解析到vps服务器地址就可以了）<http://upload.tinyxd.me/>来上传/浏览/删除文件。    
 本文参考了[log4d](http://log4d.com/)的[使用独立图床子域名](http://log4d.com/2012/05/image-host/)。    
 <br />
-本文地址：<http://tinyxd.me/blog/2012/08/26/imag-file-explorer/>

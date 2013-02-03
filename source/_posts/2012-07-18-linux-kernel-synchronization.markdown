@@ -70,5 +70,5 @@ TASK_INTERRUPTIBLE是可以被信号和wake_up()唤醒的，当信号到来时�
 补充原语（completion）：其和信号量之间的真正区别在于如何使用等待队列中包含的自旋锁。在补充原语中，自旋锁用来确保complete()和wait_for_completion()不会并发执行。在信号量中，自旋锁用于避免并发执行的down()函数弄乱信号量的数据结构。   
 <br />
 本文章参考自《深入理解linux内核》。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/18/linux-kernel-synchronization/>
+
  

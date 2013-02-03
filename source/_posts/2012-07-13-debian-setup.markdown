@@ -51,4 +51,3 @@ WINXP安装好以后，把下载的GRUB4 for DOS包解压缩到C盘根目录，�
 11、等系统装好后，需要设置中文字体，还需要安装一些必要软件等等。见我以前的文章，下面是链接：<http://blog.chinaunix.net/uid-26053577-id-3011222.html>   
 
 本文章来自本人**[ChinaUnix](http://blog.chinaunix.net/uid/26053577.html)**博客。    
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/13/debian-setup/>   

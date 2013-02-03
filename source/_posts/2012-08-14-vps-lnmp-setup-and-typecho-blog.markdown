@@ -31,5 +31,3 @@ ps：博客还没有取名，希望大家给点建议。
 [LNMP一键安装升级nginx及php常用设置 SFTP管理指南](http://www.cnblogs.com/amityat/archive/2011/08/23/2150177.html)   
 [VPS新手指南/教程](http://www.vpser.net/vps-howto)   
 <br />
-本站博客未特别注明，均为原创，转载请注明出处。   
-本文地址：<http://tinyxd.me/blog/2012/08/14/vps-lnmp-setup-and-typecho-blog/>   

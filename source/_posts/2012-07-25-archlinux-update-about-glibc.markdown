@@ -46,5 +46,5 @@ shell > pacman -S broadcom-wl #如果需要的话，再次安装即可
 ```
 至此，升级结束。  
 <br />
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/25/archlinux-update-about-glibc/>
+
 

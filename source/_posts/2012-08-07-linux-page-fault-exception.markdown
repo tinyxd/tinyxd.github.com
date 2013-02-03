@@ -22,5 +22,4 @@ Linux的缺页（Page Fault）异常处理程序必须区分以下两种情况�
 
  
 
-本文参考自《深入理解linux内核》和[缺页异常处理程序](http://blog.csdn.net/yunsongice/article/details/5637671) 。   
-本文地址：<http://tinyxd.me/blog/2012/08/07/linux-page-fault-exception/>   
+本文参考自《深入理解linux内核》和[缺页异常处理程序](http://blog.csdn.net/yunsongice/article/details/5637671) 。    

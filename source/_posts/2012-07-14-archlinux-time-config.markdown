@@ -54,4 +54,4 @@ DAEMONS=(dbus networkmanager !network !dhcdbd syslog-ng @alsa @iNodeAuthService 
 确保网络通畅，等一会，系统时间应该就会更新了，确实蛮方便   
 最后在`rc.conf`的DAEMONS里面加上`@openntpd`，确保开机后台运行。
 <br />   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/14/archlinux-time-config/>
+

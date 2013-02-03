@@ -179,5 +179,5 @@ sched_getscheduler()和sched_setscheduler()系统调用、sched_getparam()和sch
 
 <br />
 本文章参考自《深入理解linux内核》。   
-本站文章如果没有特别说明，均为**原创**，转载请以**链接**方式注明本文地址：<http://tinyxd.me/blog/2012/07/26/linux-process-scheduling/>
+
  

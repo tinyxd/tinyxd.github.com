@@ -73,5 +73,5 @@ void main (void)
 	}
 } 
 ```
-本文是查阅书籍和网络资料整理而来，转载请注明出处。并以超链接的形式注明本文地址：`http://tinyxd.me/blog/2012/06/27/straight-insertion-sort/ `  
-下一节更新交换排序。
+   
+下一节更新交换排序。   
