@@ -8,7 +8,9 @@ footer: true
 ---
 西电小新：<a href="http://blog.tinyxd.me/" target="_blank" > http://blog.tinyxd.me </a>    
 
-冰之竹语：<a href="http://info.tinyxd.me/" target="_blank" > http://info.tinyxd.me </a>    
+小新的维基世界：<a href="http://wiki.tinyxd.me/" target="_blank" > http://wiki.tinyxd.me </a>   
+
+小新网站导航：<a href="http://www.tinyxd.me/" target="_blank" > http://www.tinyxd.me </a>  
 
 小C驻留地：<a href="http://www.lan-gui.com/" target="_blank" > http://www.lan-gui.com </a>    
 
