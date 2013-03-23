@@ -28,6 +28,8 @@ DoMyself：<a href="http://www.domyself.me/" target="_blank"> http://www.domysel
 
 小峰网络遨游记：<a href="http://xfeng.me/" target="_blank"> http://xfeng.me/</a>   
 
+IT足迹：<a href="http://www.zhengyuanhang.com/" target="_blank"> http://www.zhengyuanhang.com/</a> 
+
 月光博客：<a href="http://www.williamlong.info/" target="_blank"> http://www.williamlong.info/ </a>    
 
 互联网一些事：<a href="http://www.yixieshi.com/" target="_blank"> http://www.yixieshi.com/ </a>   
