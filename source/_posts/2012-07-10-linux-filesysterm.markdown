@@ -4,7 +4,7 @@ title: "linux文件系统"
 date: 2012-07-10 23:26
 comments: true
 categories: linux
-tags: [linux,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,linux内核,文件系统,filesysterm
 description: 在文件系统方面，Linux可以算得上操作系统中的 “瑞士军刀”。Linux 支持许多种文件系统，从日志型文件系统到集群文件系统和加密文件系统。对于使用标准的和比较奇特的文件系统以及开发文件系统来说，Linux 是极好的平台。
 ---

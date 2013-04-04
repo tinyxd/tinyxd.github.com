@@ -4,7 +4,7 @@ title: "linux内存管理（中）"
 date: 2012-07-31 23:16
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,内核,内存管理,slab,buddy,伙伴算法
 description: 本文介绍了slab分配器。slab分配器是Linux内存管理中非常重要和复杂的一部分。
 ---

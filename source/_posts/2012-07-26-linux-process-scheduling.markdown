@@ -4,7 +4,7 @@ title: "linux进程调度"
 date: 2012-07-26 23:18
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux process scheduling,linux进程调度
 description: linux与任何分时系统一样，通过一个进程到另一个进程的快速切换，达到表面上看来的多个进程同时执行的神奇效果。 
 ---

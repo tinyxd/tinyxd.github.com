@@ -4,7 +4,7 @@ title: "linux内存管理（上）"
 date: 2012-07-29 23:33
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,内核,内存管理
 description: linux内存管理上介绍了页框管理，及其重要的伙伴算法。
 ---

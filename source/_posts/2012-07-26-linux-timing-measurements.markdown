@@ -4,7 +4,7 @@ title: "linux系统定时测量"
 date: 2012-07-26 12:48
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,内核,linux timing measurements,系统定时测量
 description: linux timing measurements,系统定时测量
 ---

@@ -4,7 +4,7 @@ title: "堆和栈的区别"
 date: 2012-06-08 06:59
 comments: true
 categories: software
-tags: [heap , stack ,堆栈]
+tags: [heap , stack]
 keywords: heap,Stack,堆,栈
 description: The difference between heap and stack.堆与栈的区别。
 ---

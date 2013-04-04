@@ -4,7 +4,7 @@ title: "linux工作队列"
 date: 2012-07-11 23:08
 comments: true
 categories: linux
-tags: [linux,内核]
+tags: [linux,kernel]
 keywords: linux,工作队列,内核,kernel
 description: Linux中的Workqueue机制就是为了简化内核线程的创建。 
 ---

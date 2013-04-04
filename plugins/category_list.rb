@@ -1,4 +1,4 @@
-# Tag Cloud for Octopress, modified by pf_miles, for use with utf-8 encoded blogs(all regexp added 'u' option).
+﻿# Tag Cloud for Octopress, modified by pf_miles, for use with utf-8 encoded blogs(all regexp added 'u' option).
 # modified by alswl, tag_cloud -> category_cloud
 # =======================
 # 

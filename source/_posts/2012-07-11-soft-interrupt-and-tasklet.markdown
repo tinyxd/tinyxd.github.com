@@ -4,7 +4,7 @@ title: "软中断和tasklet"
 date: 2012-07-11 22:57
 comments: true
 categories: linux
-tags: [linux,内核]
+tags: [linux,kernel]
 keywords: soft interrupt,tasklet,软中断,内核,linux
 description: 介绍了linux内核中软中断和tasklet机制。
 ---

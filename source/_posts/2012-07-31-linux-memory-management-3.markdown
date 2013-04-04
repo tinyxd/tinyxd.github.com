@@ -4,7 +4,7 @@ title: "linux内存管理（下）"
 date: 2012-07-31 23:51
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,内核,内存管理,非连续内存区
 description: 本文介绍了非连续内存区管理（Noncontiguous Memory Area Management）。
 ---

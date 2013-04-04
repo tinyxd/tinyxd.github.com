@@ -4,7 +4,7 @@ title: "linux内核同步"
 date: 2012-07-18 15:57
 comments: true
 categories: linux
-tags: [linux,kernel,内核]
+tags: [linux,kernel]
 keywords: linux,kernel,内核,同步,synchronization
 description: linux内核同步机制
 ---

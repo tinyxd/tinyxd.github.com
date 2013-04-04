@@ -4,7 +4,7 @@ title: "中国大陆linux源镜像地址"
 date: 2012-07-05 09:39
 comments: true
 categories: linux
-tags: [linux,镜像]
+tags: [linux,mirror]
 keywords: linux,开源,镜像,中国
 description: 中国大陆linux源镜像地址
 ---
